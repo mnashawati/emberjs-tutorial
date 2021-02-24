@@ -1,7 +1,7 @@
 {{page-title "Index"}}
 
 <main class="container mt-5">
-    <LinkTo @route="cart">
+    <LinkTo @route="cart" class="cart-link">
         <i class="fa fa-shopping-cart"></i>
     </LinkTo>
     <LinkTo @route="item" @model="1">
@@ -9,6 +9,7 @@
     </LinkTo>
     <LinkTo @route="item" @model="2">
         Product 2
-    </LinkTo></main>
+    </LinkTo>
+</main>
 
 {{outlet}}
