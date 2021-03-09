@@ -3,7 +3,8 @@
 <GeneralContainer>
     <div class="product item-details-page">
         <Product::Image @src={{this.productImage}} />
-        <Product::Details @colors={{this.model.colors}} @color={{this.color}} @onChangeColor={{this.onChangeColor}} />
+        <Product::Details @name={{this.model.name}} @price={{this.model.price}} @colors={{this.model.colors}}
+            @color={{this.color}} @onChangeColor={{this.onChangeColor}} />
     </div>
     <h5 class="mt-5">Features</h5>
     <ul>
