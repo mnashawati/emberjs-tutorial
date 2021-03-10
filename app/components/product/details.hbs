@@ -17,6 +17,7 @@
         <i class="text-danger font-weight-bold">£{{@price.current}}</i>
     </section>
 
+    {{#if @isDetails}}
     <div>
         <h5>Color</h5>
         <div class="product-colors active-{{@color}}">
@@ -26,4 +27,5 @@
             {{/each}}
         </div>
     </div>
+    {{/if}}
 </div>
